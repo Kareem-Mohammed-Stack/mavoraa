@@ -1,0 +1,356 @@
+.section-collection-list,
+.orca-cats--page {
+  --orca-cat-from: var(--color-primary, #E24C13);
+  --orca-cat-mid: color-mix(in srgb, var(--color-primary, #E24C13) 72%, white);
+  --orca-cat-to: color-mix(in srgb, var(--color-primary, #E24C13) 70%, black);
+  --orca-cat-pedestal: var(--color-primary, #E24C13);
+}
+
+.orca-cats__header {
+  max-width: 48rem;
+  margin: 0 auto 3.4rem;
+  text-align: center;
+}
+
+.orca-cats__header--page {
+  max-width: none;
+  margin: 0 0 3.2rem;
+}
+
+.orca-cats__header--page .orca-cats__title {
+  margin: 0;
+}
+
+.orca-cats__header--center {
+  text-align: center;
+}
+
+.orca-cats__eyebrow {
+  display: block;
+  margin: 0 0 .8rem;
+  color: var(--orca-cat-from);
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.orca-cats__title {
+  margin: 0;
+  letter-spacing: -.03em;
+  color: var(--color-foreground, #1a1a1a);
+}
+
+.orca-cats__description {
+  margin: 1rem 0 0;
+  color: rgba(var(--color-foreground), .65);
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.orca-cats__grid {
+  display: grid;
+  grid-template-columns: repeat(var(--orca-cats-cols, 3), minmax(0, 1fr));
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.orca-cats__item {
+  min-width: 0;
+}
+
+/* Mavoraa 3D Podium Stage Collection Card */
+.orca-cat-card {
+  --orca-cat-radius: 24px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  isolation: isolate;
+  border-radius: var(--orca-cat-radius);
+  color: #ffffff;
+  text-decoration: none;
+  background: var(--color-primary, #E24C13);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.14);
+  transition: transform 280ms ease, box-shadow 280ms ease;
+  cursor: pointer !important;
+}
+
+.orca-cat-card:hover,
+.orca-cat-card:focus-visible {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.22);
+  cursor: pointer !important;
+}
+
+/* Apply cursor: pointer to the entire card area, including images, stage, copy, and titles */
+.orca-cat-card,
+.orca-cat-card:hover,
+.orca-cat-card *,
+.orca-cat-card:hover *,
+.orca-cats__item,
+.orca-cats__item a,
+.orca-cats__item a *,
+.section-collection-list .card,
+.section-collection-list .card *,
+.collection-card-wrapper,
+.collection-card-wrapper * {
+  cursor: pointer !important;
+}
+
+.orca-cat-card:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 4px;
+}
+
+.orca-cat-card__scene {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.orca-cat-card__overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.orca-cat-card__stage {
+  position: static;
+  z-index: 1;
+}
+
+.orca-cat-card__product {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  bottom: 27%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.orca-cat-card__product--wellness {
+  width: 30%;
+  height: 30%;
+  bottom: 31%;
+}
+
+.orca-cat-card__product--straightener {
+  width: 32%;
+  height: 33%;
+  bottom: 29%;
+}
+
+.orca-cat-card__product--kitchen {
+  width: 50%;
+  height: 50%;
+  bottom: 27%;
+}
+
+.orca-cat-card__product--tech {
+  width: 60%;
+  height: 50%;
+  bottom: 21%;
+}
+
+.orca-cat-card__product--petbed {
+  width: 60%;
+  height: 27%;
+  bottom: 29%;
+}
+
+.orca-cat-card__product--kids-figurine {
+  width: 65%;
+  height: 34%;
+  bottom: 30.5%;
+}
+
+.orca-cat-card__figure {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.orca-cat-card__image {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  object-fit: contain;
+  object-position: center bottom;
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
+  transition: transform 300ms ease;
+}
+
+.orca-cat-card:hover .orca-cat-card__image {
+  transform: scale(1.05) translateY(-3px);
+}
+
+.orca-cat-card__footer {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1.6rem;
+  padding: 0 2.2rem 2rem;
+}
+
+.orca-cat-card__copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  min-width: 0;
+}
+
+.orca-cat-card__title {
+  font-family: var(--font-heading-family);
+  font-size: clamp(2rem, 1.8vw, 2.5rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  color: #ffffff;
+  overflow-wrap: anywhere;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.orca-cat-card__count {
+  font-size: 1.35rem;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.orca-cat-card__go {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 4.2rem;
+  height: 4.2rem;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  color: #ffffff;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+  transition: background-color 200ms ease, transform 200ms ease;
+}
+
+.orca-cat-card:hover .orca-cat-card__go,
+.orca-cat-card:focus-visible .orca-cat-card__go {
+  background: rgba(0, 0, 0, 0.65);
+  transform: translateX(0.3rem);
+}
+
+.orca-cat-card__go .orca-icon {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.orca-cats__all {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.2rem;
+}
+
+.orca-cats__all-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .6rem;
+  color: var(--orca-cat-from);
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: -.01em;
+  text-decoration: none;
+  transition: gap 200ms ease;
+}
+
+.orca-cats__all-link:hover {
+  text-decoration: underline;
+  text-underline-offset: .3rem;
+  gap: .9rem;
+}
+
+.orca-cats--page .pagination-wrapper {
+  margin-top: 3.2rem;
+}
+
+@media screen and (max-width: 989px) {
+  .orca-cats__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .orca-cats__grid {
+    grid-template-columns: repeat(var(--orca-cats-cols-mobile, 1), minmax(0, 1fr));
+    gap: 1.4rem;
+  }
+
+  .orca-cats__header,
+  .orca-cats__header--page {
+    margin-bottom: 2.4rem;
+  }
+
+  .orca-cat-card__footer {
+    padding: 0 1.6rem 1.5rem;
+  }
+
+  .orca-cat-card__title {
+    font-size: 1.9rem;
+  }
+
+  .orca-cat-card__go {
+    width: 3.8rem;
+    height: 3.8rem;
+  }
+}
+
+.orca-cats .slider.orca-cats__grid {
+  display: flex;
+  gap: 0;
+}
+
+.orca-cats .slider.orca-cats__grid .orca-cats__item {
+  width: 78%;
+  max-width: 34rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .orca-cat-card,
+  .orca-cat-card__image,
+  .orca-cat-card__go {
+    transition: none;
+  }
+
+  .orca-cat-card:hover,
+  .orca-cat-card:focus-visible {
+    transform: none;
+  }
+
+  .orca-cat-card:hover .orca-cat-card__image {
+    transform: none;
+  }
+
+  .orca-cat-card:hover .orca-cat-card__go,
+  .orca-cat-card:focus-visible .orca-cat-card__go {
+    transform: none;
+  }
+}

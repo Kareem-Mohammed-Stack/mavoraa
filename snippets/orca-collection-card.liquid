@@ -1,0 +1,205 @@
+{% doc %}
+  Collection card with Mavoraa 3D podium stage in brand colors (#E24C13),
+  curated product cutouts matching WEZZA store layout, title, count, and action link.
+
+  @param {object} [card_collection] - Collection to render
+  @param {number} [index] - Card index for staggered decoration
+  @param {string} [hero] - Optional cutout key override
+{% enddoc %}
+
+{%- liquid
+  assign target_collection = card_collection
+
+  if target_collection == blank or target_collection.url == blank
+    if block != blank and block.settings.collection != blank
+      assign block_handle = block.settings.collection | handleize
+      if block_handle != blank
+        assign target_collection = collections[block_handle]
+      endif
+    endif
+  endif
+
+  assign hero_key = hero | default: ''
+  assign col_handle = target_collection.handle | default: '' | downcase
+  assign col_title = target_collection.title | default: ''
+
+  if col_handle == blank and block != blank and block.settings.collection != blank
+    assign col_handle = block.settings.collection | handleize
+  endif
+
+  if hero_key == blank or hero_key == 'auto'
+    if col_handle contains 'wellness' or col_handle contains 'health' or col_title contains 'wellness' or col_title contains 'Health'
+      assign hero_key = 'wellness'
+    elsif col_handle contains 'beauty' or col_handle contains 'hair' or col_title contains 'beauty' or col_title contains 'Beauty'
+      assign hero_key = 'straightener'
+    elsif col_handle contains 'kitchen' or col_handle contains 'home' or col_title contains 'kitchen' or col_title contains 'Home' or col_title contains 'Kitchen'
+      assign hero_key = 'kitchen'
+    elsif col_handle contains 'tech' or col_handle contains 'gadget' or col_handle contains 'smart' or col_title contains 'tech' or col_title contains 'Tech' or col_title contains 'Smart'
+      assign hero_key = 'tech'
+    elsif col_handle contains 'pet' or col_handle contains 'dog' or col_handle contains 'cat' or col_title contains 'pet' or col_title contains 'Pet'
+      assign hero_key = 'petbed'
+    elsif col_handle contains 'kid' or col_handle contains 'baby' or col_handle contains 'toy' or col_title contains 'kid' or col_title contains 'Baby' or col_title contains 'Kids' or col_title contains 'Toys'
+      assign hero_key = 'kids-figurine'
+    else
+      assign idx_mod = index | default: 1 | minus: 1 | modulo: 6
+      case idx_mod
+        when 0
+          assign hero_key = 'wellness'
+        when 1
+          assign hero_key = 'straightener'
+        when 2
+          assign hero_key = 'kitchen'
+        when 3
+          assign hero_key = 'tech'
+        when 4
+          assign hero_key = 'petbed'
+        when 5
+          assign hero_key = 'kids-figurine'
+      endcase
+    endif
+  endif
+
+  # If target_collection is still blank, resolve from hero_key
+  if target_collection == blank or target_collection.url == blank
+    case hero_key
+      when 'wellness'
+        assign target_collection = collections['health-wellness']
+      when 'straightener'
+        assign target_collection = collections['beauty-personal-care']
+      when 'kitchen'
+        assign target_collection = collections['home-kitchen']
+      when 'tech'
+        assign target_collection = collections['smart-tech-gadgets']
+      when 'petbed'
+        assign target_collection = collections['pet-essentials']
+      when 'kids-figurine'
+        assign target_collection = collections['baby-kids-toys']
+    endcase
+  endif
+
+  # Exact collection URL (must be collection.url)
+  assign col_url = target_collection.url
+  if col_url == blank and target_collection.handle != blank
+    assign col_url = '/collections/' | append: target_collection.handle
+  endif
+  if col_url == blank and col_handle != blank
+    assign col_url = '/collections/' | append: col_handle
+  endif
+  if col_url == blank
+    case hero_key
+      when 'wellness'
+        assign col_url = '/collections/health-wellness'
+      when 'straightener'
+        assign col_url = '/collections/beauty-personal-care'
+      when 'kitchen'
+        assign col_url = '/collections/home-kitchen'
+      when 'tech'
+        assign col_url = '/collections/smart-tech-gadgets'
+      when 'petbed'
+        assign col_url = '/collections/pet-essentials'
+      when 'kids-figurine'
+        assign col_url = '/collections/baby-kids-toys'
+      else
+        assign col_url = routes.collections_url
+    endcase
+  endif
+
+  # Title resolution
+  assign display_title = target_collection.title
+  if display_title == blank
+    case hero_key
+      when 'wellness'
+        assign display_title = 'Health & Wellness'
+      when 'straightener'
+        assign display_title = 'Beauty & Personal Care'
+      when 'kitchen'
+        assign display_title = 'Home & Kitchen'
+      when 'tech'
+        assign display_title = 'Smart Tech & Gadgets'
+      when 'petbed'
+        assign display_title = 'Pet Essentials'
+      when 'kids-figurine'
+        assign display_title = 'Baby, Kids & Toys'
+      else
+        assign display_title = 'Collection'
+    endcase
+  endif
+
+  # Count resolution
+  assign count = target_collection.all_products_count | default: 0
+  if count == 0
+    case hero_key
+      when 'wellness'
+        assign count = 14
+      when 'straightener'
+        assign count = 10
+      when 'kitchen'
+        assign count = 15
+      when 'tech'
+        assign count = 13
+      when 'petbed'
+        assign count = 8
+      when 'kids-figurine'
+        assign count = 8
+    endcase
+  endif
+
+  assign cutout = ''
+  case hero_key
+    when 'wellness'
+      assign cutout = 'orca-cutout-wellness.png'
+    when 'straightener'
+      assign cutout = 'orca-cutout-straightener.png'
+    when 'kitchen'
+      assign cutout = 'orca-cutout-kitchen.png'
+    when 'tech'
+      assign cutout = 'orca-cutout-tech.png'
+    when 'petbed'
+      assign cutout = 'orca-cutout-petbed.png'
+    when 'kids-figurine'
+      assign cutout = 'orca-cutout-kids-figurine.png'
+    else
+      assign cutout = 'orca-cutout-wellness.png'
+  endcase
+-%}
+
+<a
+  href="{{ col_url }}"
+  class="orca-cat-card"
+  aria-label="{{ display_title | escape }}"
+>
+  <span class="orca-cat-card__scene" style="background-image: url('{{ 'orca-collection-stage.png' | asset_url }}');" aria-hidden="true"></span>
+  <span class="orca-cat-card__overlay" aria-hidden="true"></span>
+
+  <span class="orca-cat-card__stage">
+    {%- if cutout != blank -%}
+      <span class="orca-cat-card__product orca-cat-card__product--{{ hero_key }}">
+        <span class="orca-cat-card__figure">
+          <img
+            src="{{ cutout | asset_url }}"
+            alt="{{ display_title | escape }}"
+            class="orca-cat-card__image"
+            loading="lazy"
+            decoding="async"
+          >
+        </span>
+      </span>
+    {%- endif -%}
+  </span>
+
+  <span class="orca-cat-card__footer">
+    <span class="orca-cat-card__copy">
+      <span class="orca-cat-card__title">
+        {{- display_title | escape -}}
+      </span>
+      {%- if count > 0 -%}
+        <span class="orca-cat-card__count">{{ count }} products</span>
+      {%- else -%}
+        <span class="orca-cat-card__count">{{ 'sections.collection_list.view_all' | t | default: 'Explore collection' }}</span>
+      {%- endif -%}
+    </span>
+    <span class="orca-cat-card__go" aria-hidden="true">
+      {% render 'orca-icon', icon: 'arrow-right' %}
+    </span>
+  </span>
+</a>

@@ -1,0 +1,223 @@
+{%- comment -%}
+  Orca Modern Mobile Drawer Navigation
+  Exact Navigation Order: Home → Categories → All Products → Contact
+  - Categories has a slide-out submenu with a Back button ("← Back to menu")
+{%- endcomment -%}
+
+{%- liquid
+  assign current_path = request.path
+
+  assign is_home_active = false
+  if current_path == '/' or template == 'index'
+    assign is_home_active = true
+  endif
+
+  assign is_categories_active = false
+  if current_path contains '/collections/' and current_path != '/collections/all'
+    assign is_categories_active = true
+  elsif template contains 'collection' and collection.handle != 'all'
+    assign is_categories_active = true
+  elsif current_path == routes.collections_url or current_path == '/collections' or template == 'list-collections'
+    assign is_categories_active = true
+  endif
+
+  assign is_all_products_active = false
+  if current_path == '/collections/all'
+    assign is_all_products_active = true
+  elsif template contains 'collection' and collection.handle == 'all'
+    assign is_all_products_active = true
+  endif
+
+  assign is_contact_active = false
+  if current_path contains '/pages/contact' or page.handle == 'contact'
+    assign is_contact_active = true
+  endif
+
+  assign category_handles = 'health-wellness,beauty-personal-care,home-kitchen,smart-tech-gadgets,pet-essentials,baby-kids-toys' | split: ','
+-%}
+
+<div class="menu-drawer__inner-container">
+  <div class="menu-drawer__navigation-container">
+    <nav class="menu-drawer__navigation" aria-label="{{ 'sections.header.menu' | t }}">
+      <div class="orca-drawer-heading">
+        <span class="orca-drawer-heading__label">Menu</span>
+        <span class="orca-drawer-heading__brand">Mavoraa</span>
+      </div>
+
+      <ul class="menu-drawer__menu has-submenu list-menu" role="list">
+        <!-- 1. Home -->
+        <li>
+          <a
+            href="{{ routes.root_url }}"
+            class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if is_home_active %} menu-drawer__menu-item--active is-active{% endif %}"
+            {% if is_home_active %}aria-current="page"{% endif %}
+          >
+            Home
+          </a>
+        </li>
+
+        <!-- 2. Categories with Submenu & Back Button -->
+        <li>
+          <details id="Details-menu-drawer-categories">
+            <summary
+              id="HeaderDrawer-Categories"
+              class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if is_categories_active %} menu-drawer__menu-item--active is-active{% endif %}"
+            >
+              <span class="menu-drawer__category-label">
+                <svg class="header__cat-icon" width="18" height="18" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <rect x="2.5" y="2.5" width="6" height="6" rx="1.5" stroke="currentColor" stroke-width="1.8"/>
+                  <rect x="11.5" y="2.5" width="6" height="6" rx="1.5" stroke="currentColor" stroke-width="1.8"/>
+                  <rect x="2.5" y="11.5" width="6" height="6" rx="1.5" stroke="currentColor" stroke-width="1.8"/>
+                  <rect x="11.5" y="11.5" width="6" height="6" rx="1.5" stroke="currentColor" stroke-width="1.8"/>
+                </svg>
+                Categories
+              </span>
+              {% render 'icon-arrow' %}
+            </summary>
+
+            <div
+              id="childlink-categories"
+              class="menu-drawer__submenu has-submenu gradient motion-reduce"
+              tabindex="-1"
+            >
+              <div class="menu-drawer__inner-submenu">
+                <!-- Back Button -->
+                <button
+                  type="button"
+                  class="menu-drawer__close-button link link--text focus-inset"
+                  aria-expanded="true"
+                >
+                  <svg class="icon-arrow-back" width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M12.5 15L7.5 10L12.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <span>Back to Menu</span>
+                </button>
+
+                <!-- Submenu Categories List -->
+                <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
+                  {%- for handle in category_handles -%}
+                    {%- assign cat = collections[handle] -%}
+                    {%- liquid
+                      assign cat_title = handle | replace: '-', ' ' | capitalize
+                      assign cat_url = '/collections/' | append: handle
+
+                      if cat != empty and cat != blank
+                        if cat.title != blank
+                          assign cat_title = cat.title
+                        endif
+                        if cat.url != blank
+                          assign cat_url = cat.url
+                        endif
+                      endif
+
+                      case handle
+                        when 'health-wellness'
+                          assign cat_title = 'Health & Wellness'
+                          if cat_url == blank or cat_url == ''
+                            assign cat_url = '/collections/health-wellness'
+                          endif
+                        when 'beauty-personal-care'
+                          assign cat_title = 'Beauty & Personal Care'
+                          if cat_url == blank or cat_url == ''
+                            assign cat_url = '/collections/beauty-personal-care'
+                          endif
+                        when 'home-kitchen'
+                          assign cat_title = 'Home & Kitchen'
+                          if cat_url == blank or cat_url == ''
+                            assign cat_url = '/collections/home-kitchen'
+                          endif
+                        when 'smart-tech-gadgets'
+                          assign cat_title = 'Smart Tech & Gadgets'
+                          if cat_url == blank or cat_url == ''
+                            assign cat_url = '/collections/smart-tech-gadgets'
+                          endif
+                        when 'pet-essentials'
+                          assign cat_title = 'Pet Essentials'
+                          if cat_url == blank or cat_url == ''
+                            assign cat_url = '/collections/pet-essentials'
+                          endif
+                        when 'baby-kids-toys'
+                          assign cat_title = 'Baby, Kids & Toys'
+                          if cat_url == blank or cat_url == ''
+                            assign cat_url = '/collections/baby-kids-toys'
+                          endif
+                      endcase
+
+                      if cat_url == blank or cat_url == ''
+                        assign cat_url = '/collections/' | append: handle
+                      endif
+
+                      assign is_sub_active = false
+                      if current_path == cat_url
+                        assign is_sub_active = true
+                      endif
+                    -%}
+                    <li>
+                      <a
+                        href="{{ cat_url }}"
+                        class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if is_sub_active %} menu-drawer__menu-item--active is-active{% endif %}"
+                        {% if is_sub_active %}aria-current="page"{% endif %}
+                      >
+                        {{ cat_title }}
+                      </a>
+                    </li>
+                  {%- endfor -%}
+
+                  <li class="menu-drawer__explore-all">
+                    <a
+                      href="{{ routes.collections_url }}"
+                      class="menu-drawer__menu-item link link--text list-menu__item focus-inset"
+                      style="color: var(--color-primary, #E24C13); font-weight: 600;"
+                    >
+                      All Categories &rarr;
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </details>
+        </li>
+
+        <!-- 3. All Products -->
+        <li>
+          <a
+            href="{{ routes.all_products_collection_url }}"
+            class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if is_all_products_active %} menu-drawer__menu-item--active is-active{% endif %}"
+            {% if is_all_products_active %}aria-current="page"{% endif %}
+          >
+            All Products
+          </a>
+        </li>
+
+        <!-- 4. Contact -->
+        <li>
+          <a
+            href="/pages/contact"
+            class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if is_contact_active %} menu-drawer__menu-item--active is-active{% endif %}"
+            {% if is_contact_active %}aria-current="page"{% endif %}
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="menu-drawer__utility-links">
+      {%- if shop.customer_accounts_enabled -%}
+        <a
+          href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"
+          class="menu-drawer__account link focus-inset h5"
+        >
+          {% render 'orca-icon', icon: 'account' %}
+          {%- liquid
+            if customer
+              echo 'customer.account_fallback' | t
+            else
+              echo 'customer.log_in' | t
+            endif
+          -%}
+        </a>
+      {%- endif -%}
+    </div>
+  </div>
+</div>

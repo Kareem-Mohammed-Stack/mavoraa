@@ -1,0 +1,202 @@
+/*
+  Master template tokens.
+
+  Change a store's brand in one place:
+  config/settings_schema.json → Brand
+  --color-primary, --color-secondary, --color-accent are printed in layout/theme.liquid
+
+  Header            sections/header.liquid
+                    assets/orca-header.css
+                    assets/orca-header.js
+  Hero              sections/slideshow.liquid
+                    sections/image-banner.liquid
+  Collections       sections/collection-list.liquid
+                    assets/orca-collections.css
+                    snippets/orca-collection-card.liquid
+                    snippets/card-collection.liquid
+  Product grid      sections/featured-collection.liquid
+  Featured product  sections/featured-product.liquid
+                    assets/orca-featured.css
+  Main product      sections/main-product.liquid
+                    assets/section-main-product.css
+  Product card      snippets/card-product.liquid
+                    assets/component-card.css
+  Testimonials      sections/orca-testimonials.liquid
+                    assets/orca-testimonials.css
+  FAQ               sections/orca-faq.liquid
+                    assets/orca-faq.css
+                    assets/orca-faq.js
+  Footer            sections/footer.liquid
+                    assets/orca-footer.css
+  Global CSS        assets/theme-tokens.css
+                    assets/base.css
+  Global JS         assets/global.js
+                    assets/constants.js
+  Cart              sections/cart-drawer.liquid
+                    assets/cart-notification.js
+  Settings          config/settings_schema.json
+                    config/settings_data.json
+*/
+
+:root {
+  /* Brand Color System */
+  --color-brand-primary: #E24C13;
+  --color-brand-secondary: #202020;
+  --color-brand-primary-rgb: 226, 76, 19;
+  --color-brand-secondary-rgb: 32, 32, 32;
+
+  --color-primary: #E24C13;
+  --color-secondary: #202020;
+  --color-accent: #E24C13;
+  --color-hover: #E24C13;
+  --color-border: rgba(32, 32, 32, 0.12);
+
+  --font-family-primary: var(--font-body-family);
+  --font-size-xs: 1.2rem;
+  --font-size-sm: 1.4rem;
+  --font-size-md: 1.6rem;
+  --font-size-lg: 2rem;
+  --font-size-xl: 2.8rem;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 650;
+
+  --spacing-xs: 0.4rem;
+  --spacing-sm: 0.8rem;
+  --spacing-md: 1.6rem;
+  --spacing-lg: 2.4rem;
+  --spacing-xl: 4.8rem;
+
+  --shadow-sm: 0 8px 32px rgba(var(--color-foreground), 0.07);
+  --shadow-md: 0 18px 40px color-mix(in srgb, var(--color-primary) 32%, transparent);
+  --shadow-lg: 0 20px 40px rgba(var(--color-foreground), 0.08);
+  --header-height: 7.2rem;
+
+  --font-size-small: 1.2rem;
+  --font-size-label: 1.4rem;
+  --font-size-body: 1.6rem;
+  --font-size-h3: 2rem;
+  --font-size-h2: 2.8rem;
+  --font-size-h1: 4rem;
+
+  --radius-sm: 0.4rem;
+  --radius-md: 0.8rem;
+  --radius-lg: 1.6rem;
+
+  --space-1: 0.4rem;
+  --space-2: 0.8rem;
+  --space-3: 1.2rem;
+  --space-4: 1.6rem;
+  --space-5: 2.4rem;
+  --space-6: 3.2rem;
+  --space-7: 4.8rem;
+
+  --shadow-soft: 0 8px 32px rgba(var(--color-foreground), 0.07);
+  --transition-fast: 180ms ease;
+  --transition-base: 240ms ease;
+  --container-width: var(--page-width);
+}
+
+/* Primary CTA & Button Color System (#E24C13) */
+.button:not(.button--secondary):not(.button--tertiary),
+.shopify-challenge__button,
+.customer button:not(.button--secondary),
+button.shopify-payment-button__button--unbranded,
+.cart__dynamic-checkout-buttons [role='button'],
+.quick-add__submit:not(.button--secondary),
+.lm-main-button,
+.sticky-atc-button,
+.product-form__submit {
+  background-color: var(--color-brand-primary, #E24C13) !important;
+  border-color: var(--color-brand-primary, #E24C13) !important;
+  color: #ffffff !important;
+}
+
+.button:not(.button--secondary):not(.button--tertiary):hover,
+.shopify-challenge__button:hover,
+.customer button:not(.button--secondary):hover,
+button.shopify-payment-button__button--unbranded:hover,
+.quick-add__submit:not(.button--secondary):hover,
+.lm-main-button:not([disabled]):hover,
+.sticky-atc-button:not([disabled]):hover,
+.product-form__submit:not([disabled]):hover {
+  background-color: #c93f0d !important;
+  border-color: #c93f0d !important;
+  color: #ffffff !important;
+}
+
+/* Secondary Button System (#202020) */
+.button--secondary {
+  background-color: transparent !important;
+  border: 1px solid var(--color-brand-secondary, #202020) !important;
+  color: var(--color-brand-secondary, #202020) !important;
+}
+
+.button--secondary:hover {
+  background-color: var(--color-brand-secondary, #202020) !important;
+  border-color: var(--color-brand-secondary, #202020) !important;
+  color: #ffffff !important;
+}
+
+/* Sale Badges & High-Priority Labels (#E24C13) */
+.badge--sale,
+.price__badge-sale,
+.lm-badge.price__badge-sale,
+.price .price__badge-sale,
+.card__badge .badge:not(.badge--sold-out),
+.volume-pricing--sale-badge .price__badge-sale {
+  background-color: var(--color-brand-primary, #E24C13) !important;
+  border-color: var(--color-brand-primary, #E24C13) !important;
+  color: #ffffff !important;
+}
+
+/* Price Color Rules */
+.price,
+.price .price-item,
+.price--on-sale .price-item--sale,
+.price--on-sale .price-item--last {
+  color: #000000 !important;
+}
+
+.price--on-sale .price-item--regular {
+  color: rgba(0, 0, 0, 0.55) !important;
+}
+
+/* FOMO "[Limited stock]" label - White color */
+.lk-fomo-buys .lumin-text__fancy1,
+.lk-fomo-buy .lumin-text__fancy1,
+.lk-fomo-buys .message-buys .lumin-text__fancy1,
+.lk-fomo-buy .message-buy .lumin-text__fancy1,
+.lk-fomo-buys strong .lumin-text__fancy1,
+.lk-fomo-buy strong .lumin-text__fancy1,
+.lk-fomo-buys .lumin-text__fancy1 strong,
+.lk-fomo-buy .lumin-text__fancy1 strong,
+.product .lk-fomo-buy .lumin-text__fancy1,
+.product .lk-fomo-buys .lumin-text__fancy1 {
+  background: none !important;
+  background-image: none !important;
+  -webkit-background-clip: initial !important;
+  background-clip: initial !important;
+  -webkit-text-fill-color: #ffffff !important;
+  color: #ffffff !important;
+}
+
+/* Cart Progress & Highlighting */
+.cart-drawer__progress-bar,
+.cart-progress-bar__fill,
+.fsb-progress-bar-fill {
+  background-color: var(--color-brand-primary, #E24C13) !important;
+}
+
+/* Header & Cart Badge */
+.cart-count-bubble {
+  background-color: var(--color-brand-primary, #E24C13) !important;
+  color: #ffffff !important;
+}
+
+/* Active & Hover States */
+a:hover,
+.link:hover,
+.header__menu-item:hover {
+  color: var(--color-brand-primary, #E24C13);
+}

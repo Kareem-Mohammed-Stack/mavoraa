@@ -1,0 +1,16 @@
+{% comment %}
+  Outputs "true" when the link is the categories dropdown parent.
+
+  Accepts:
+  - link: {Link}
+{% endcomment %}
+{%- liquid
+  assign categories_handle = section.settings.featured_nav_parent | default: 'shop' | downcase
+  assign link_title = link.title | downcase
+  assign is_categories_link = false
+
+  if link.handle == categories_handle or link_title == categories_handle or link_title == 'shop'
+    assign is_categories_link = true
+  endif
+-%}
+{%- if is_categories_link -%}true{%- endif -%}

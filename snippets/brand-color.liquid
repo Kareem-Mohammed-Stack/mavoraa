@@ -1,0 +1,8 @@
+{%- liquid
+  assign chosen = color
+  assign chosen_key = chosen | downcase
+  if chosen == blank or chosen_key == '#2a5bff' or chosen_key == '#e84e1a'
+    assign chosen = settings.color_primary | default: '#E24C13'
+  endif
+  echo chosen
+-%}

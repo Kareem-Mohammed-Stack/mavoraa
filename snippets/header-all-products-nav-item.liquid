@@ -1,0 +1,48 @@
+{% comment %}
+  Renders the All Products top-level nav item.
+
+  Accepts:
+  - mode: {String} inline | drawer
+{% endcomment %}
+
+{%- liquid
+  assign all_products_url = routes.all_products_collection_url
+  if collections.all != blank
+    assign all_products_url = collections.all.url
+  endif
+
+  assign all_products_active = false
+  if request.page_type == 'collection' and collection.handle == 'all'
+    assign all_products_active = true
+  endif
+
+  assign all_products_label = section.settings.all_products_nav_label | default: 'All Products'
+-%}
+
+<li>
+  {%- if mode == 'drawer' -%}
+    <a
+      id="HeaderDrawer-all-products"
+      href="{{ all_products_url }}"
+      class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if all_products_active %} menu-drawer__menu-item--active{% endif %}"
+      {% if all_products_active %}
+        aria-current="page"
+      {% endif %}
+    >
+      {{ all_products_label | escape }}
+    </a>
+  {%- else -%}
+    <a
+      id="HeaderMenu-all-products"
+      href="{{ all_products_url }}"
+      class="header__menu-item list-menu__item link link--text focus-inset"
+      {% if all_products_active %}
+        aria-current="page"
+      {% endif %}
+    >
+      <span{% if all_products_active %} class="header__active-menu-item"{% endif %}>
+        {{- all_products_label | escape -}}
+      </span>
+    </a>
+  {%- endif -%}
+</li>

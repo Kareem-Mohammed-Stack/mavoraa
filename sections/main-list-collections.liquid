@@ -1,0 +1,130 @@
+{{ 'orca-collections.css' | asset_url | stylesheet_tag }}
+
+<div class="page-width orca-cats orca-cats--page" style="padding-top: 4.5rem; padding-bottom: 6.5rem;">
+  <div class="orca-cats__header orca-cats__header--page orca-cats__header--center">
+    <p class="orca-cats__eyebrow">Explore Collections</p>
+    <h1 class="orca-cats__title h1">
+      {{ section.settings.title | default: 'All Categories' }}
+    </h1>
+    <p class="orca-cats__description">Browse all curated categories and essentials in one place.</p>
+  </div>
+
+  <ul class="orca-cats__grid" role="list" style="--orca-cats-cols: {{ section.settings.columns_desktop | default: 3 }};">
+    {%- assign category_items = 'health-wellness,beauty-personal-care,home-kitchen,smart-tech-gadgets,pet-essentials,baby-kids-toys' | split: ',' -%}
+    {%- for handle in category_items -%}
+      {%- assign card_collection = collections[handle] -%}
+      <li class="orca-cats__item">
+        {% render 'orca-collection-card', card_collection: card_collection, index: forloop.index %}
+      </li>
+    {%- endfor -%}
+  </ul>
+</div>
+{% schema %}
+{
+  "name": "t:sections.main-list-collections.name",
+  "class": "section",
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "label": "t:sections.main-list-collections.settings.title.label",
+      "default": "Collections"
+    },
+    {
+      "type": "checkbox",
+      "id": "title_center",
+      "label": "Align to Center",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "sort",
+      "options": [
+        {
+          "value": "alphabetical",
+          "label": "t:sections.main-list-collections.settings.sort.options__1.label"
+        },
+        {
+          "value": "alphabetical_reversed",
+          "label": "t:sections.main-list-collections.settings.sort.options__2.label"
+        },
+        {
+          "value": "date_reversed",
+          "label": "t:sections.main-list-collections.settings.sort.options__3.label"
+        },
+        {
+          "value": "date",
+          "label": "t:sections.main-list-collections.settings.sort.options__4.label"
+        },
+        {
+          "value": "products_high",
+          "label": "t:sections.main-list-collections.settings.sort.options__5.label"
+        },
+        {
+          "value": "products_low",
+          "label": "t:sections.main-list-collections.settings.sort.options__6.label"
+        }
+      ],
+      "default": "alphabetical",
+      "label": "t:sections.main-list-collections.settings.sort.label"
+    },
+    {
+      "type": "select",
+      "id": "image_ratio",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "t:sections.main-list-collections.settings.image_ratio.options__1.label"
+        },
+        {
+          "value": "portrait",
+          "label": "t:sections.main-list-collections.settings.image_ratio.options__2.label"
+        },
+        {
+          "value": "square",
+          "label": "t:sections.main-list-collections.settings.image_ratio.options__3.label"
+        }
+      ],
+      "default": "adapt",
+      "label": "t:sections.main-list-collections.settings.image_ratio.label",
+      "info": "t:sections.main-list-collections.settings.image_ratio.info"
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "min": 1,
+      "max": 5,
+      "step": 1,
+      "default": 3,
+      "label": "t:sections.main-list-collections.settings.columns_desktop.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "subtitle_center",
+      "label": "Align to Center",
+      "default": false
+    },
+    
+    {
+      "type": "header",
+      "content": "t:sections.main-list-collections.settings.header_mobile.content"
+    },
+    {
+      "type": "select",
+      "id": "columns_mobile",
+      "options": [
+        {
+          "value": "1",
+          "label": "t:sections.main-list-collections.settings.columns_mobile.options__1.label"
+        },
+        {
+          "value": "2",
+          "label": "t:sections.main-list-collections.settings.columns_mobile.options__2.label"
+        }
+      ],
+      "default": "2",
+      "label": "t:sections.main-list-collections.settings.columns_mobile.label"
+    }
+  ]
+}
+{% endschema %}

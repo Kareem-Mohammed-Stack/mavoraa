@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@media screen and (min-width: 990px) {
+  .test-drawer { display: none !important; }
+}
+</style>
+</head>
+<body>
+<div class="test-drawer">HAMBURGER</div>
+<script>
+window.addEventListener('DOMContentLoaded', () => {
+  const el = document.querySelector('.test-drawer');
+  document.body.innerHTML += '<div>WIDTH: ' + window.innerWidth + ' DISPLAY: ' + window.getComputedStyle(el).display + '</div>';
+});
+</script>
+</body>
+</html>

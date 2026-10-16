@@ -1,0 +1,832 @@
+﻿[
+  {
+    "id": "gid://shopify/Product/9066188406974",
+    "title": "Mavoraa Westmore Beauty Body Coverage",
+    "handle": "Mavoraa-westmore-beauty-body-coverage",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0050_Vostara_Westmore_Beauty_Body_Coverage_jpg.jpg?v=1791467094",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/000_1.jpg?v=1791467094",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066188669118",
+    "title": "Mavoraa Waterproof Non-Slip PVC Shoe Covers",
+    "handle": "waterproof-non-slip-pvc-shoe-covers",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0043_Vostara_Waterproof_Non-Slip_PVC_Shoe_Covers.jpg?v=1791467096",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/hhhh_9ac6965a-4376-4e06-98ee-c7e3d6b7a580.webp?v=1791467096",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066188800190",
+    "title": "Mavoraa  Breastfeeding",
+    "handle": "grabora-breastfeeding",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0018_Group_2.jpg?v=1791467098",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/6666_1a0a0602-58ba-4193-bb4e-f9605ae38eaf.jpg?v=1791467098",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066188964030",
+    "title": "Mavoraa Vitality™ MagicPro 2.0",
+    "handle": "Mavoraa-vitality™-magicpro-2-0",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0003_Gemini_Generated_Image_swqmcfswqmcfswqm.jpg?v=1791467100",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/07b7a31a-0cf0-4f73-b37d-29360335639e.webp?v=1791467100",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066189095102",
+    "title": "Mavoraa  Portable USB Rechargeable Bladeless Mini Fan",
+    "handle": "Mavoraa-portable-usb-rechargeable-bladeless-mini-fan",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0015_Vostara_Portable_USB_Rechargeable_Bladeless_Mini_Fan.jpg?v=1791467102",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/WhatsApp_Image_2026-06-25_at_11.58.41_PM_1_b6d581d4-0ebc-4091-ac2b-7767503248b5.jpg?v=1791467102",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066189291710",
+    "title": "Mavoraa Pet Chew Toy with Food Dispenser",
+    "handle": "pet-chew-toy-with-food-dispenser",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0027_Vostara_Pet_Chew_Toy_with_Food_Dispenser.jpg?v=1791467104",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/ChatGPTImageJun23_2026_12_58_04AM_13bd3657-dc5a-44b3-95e1-dc29678d4a5c.png?v=1791467105",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066189422782",
+    "title": "Mavoraa Pet Dental Care Toothpaste and Toothbrush Set",
+    "handle": "pet-dental-care-toothpaste-and-toothbrush-set",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0026_Vostara_Pet_Dental_Care_Toothpaste_and_Toothbrush_Set.jpg?v=1791467107",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/fded9c78-3f61-49a5-a00f-4827d52526f5_489a7ab3-3cf5-4614-ac0c-c0b41f0f99f9.webp?v=1791467106",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066189553854",
+    "title": "Mavoraa Smart Ring",
+    "handle": "smart-ring",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0069_Gemini_Generated_Image_lgrmadlgrmadlgrm.jpg?v=1791467109",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Smart_Ring_b4b22011-3a90-48cb-b71b-a863d5ec94e4.webp?v=1791467109",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066189684926",
+    "title": "Mavoraa Silicone Pet Licking Slow Feeder Pad",
+    "handle": "Mavoraa-silicone-pet-licking-slow-feeder-pad",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0041_Vostara_Silicone_Pet_Licking_Slow_Feeder_Pad.jpg?v=1791467112",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/328a45f6cf18d528764cb205922380bb.webp?v=1791467111",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066189848766",
+    "title": "Mavoraa Handmade Woven Crossbody Bag",
+    "handle": "Mavoraa-handmade-woven-crossbody-bag",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0007_Vostara_Handmade_Woven_Crossbody_Bag.jpg?v=1791467114",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/77e61de4-77cb-4343-816b-593e243a3393_caf388ad-9ac5-4c0c-9ade-62ce6959171e.webp?v=1791467113",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066189979838",
+    "title": "Mavoraa Synthetic Hair Ponytail with Claw Clip",
+    "handle": "Mavoraa-synthetic-hair-ponytail-with-claw-clip",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0038_Vostara_Synthetic_Hair_Ponytail_with_Claw_Clip.jpg?v=1791467116",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/WhatsAppImage2026-06-23at1.42.34PM_1_1.jpg?v=1791467117",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066190143678",
+    "title": "Mavoraa Medieval Style Rabbit Family Figurine",
+    "handle": "Mavoraa-medieval-style-rabbit-family-figurine",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0023_Vostara_Medieval_Style_Rabbit_Family_Figurine.jpg?v=1791467120",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/a97b06bc-f16d-4ea8-9202-4cff9e1476db.webp?v=1791467120",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066190373054",
+    "title": "Mavoraa Retro Digital Camera with HD Filters",
+    "handle": "Mavoraa-retro-digital-camera-with-hd-filters",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/0f750c2f-9bb8-4ab6-93d6-8e416c6390b3_copy.jpg?v=1791467122",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/0f750c2f-9bb8-4ab6-93d6-8e416c6390b3.webp?v=1791467122",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066190569662",
+    "title": "Mavoraa Electric Water Gun with Light Effect",
+    "handle": "Mavoraa-electric-water-gun-with-light-effect-1",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0058_ead2b41d-bf9e-400b-8f97-7a0af3828b5a.jpg?v=1791467125",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/6aef9016-04b4-412d-bb92-ee1dde9134b4.webp?v=1791467124",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066190766270",
+    "title": "Mavoraa Portable Bluetooth Karaoke Speaker with Microphone",
+    "handle": "Mavoraa-portable-bluetooth-karaoke-speaker-with-microphone",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0035_d27a10ca-ecd9-402a-b515-d6fcd676abfe.jpg?v=1791467127",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/f4d499e34e0c26d00ce8886c277cb62b.webp?v=1791467127",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066190864574",
+    "title": "Mavoraa Pet Dog Rear Leg Injury Recovery Support Harness",
+    "handle": "Mavoraa-pet-dog-rear-leg-injury-recovery-support-harness",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0025_Vostara_Pet_Dog_Rear_Leg_Injury_Recovery_Support_Harness.jpg?v=1791467130",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/D.webp?v=1791467129",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066191028414",
+    "title": "Mavoraa EMS Foot Massage Pad with Pulse Technology",
+    "handle": "Mavoraa-ems-foot-massage-pad-with-pulse-technology",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0013_Vostara_Ankle_Balance_Board.jpg?v=1791467133",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/c518ddbc-1c6a-40f0-8192-9119fb450b81.webp?v=1791467132",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066191093950",
+    "title": "Mavoraa Infant Anti-Fall Head Protection Pillow",
+    "handle": "Mavoraa-infant-anti-fall-head-protection-pillow",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0006_Vostara_Infant_Anti-Fall_Head_Protection_Pillow.jpg?v=1791467134",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/A_e8073cee-ce6b-4868-a03d-960fa6aaac00.webp?v=1791467134",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066191225022",
+    "title": "Mavoraa Rainbow Teenie Stress Relief Ball",
+    "handle": "Mavoraa-rainbow-teenie-stress-relief-ball",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0065_Gemini_Generated_Image_hrd7k7hrd7k7hrd7.jpg?v=1791467137",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/ZZZZZZZ.webp?v=1791467137",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066191323326",
+    "title": "Mavoraa Three-Layer Slow-Feeding Pet Bowl",
+    "handle": "Mavoraa-three-layer-slow-feeding-pet-bowl",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0048_Vostara_Three-Layer_Slow-Feeding_Pet_Bowl.jpg?v=1791467140",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/FF.webp?v=1791467139",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066191487166",
+    "title": "Mavoraa Posture Corrector",
+    "handle": "Mavoraa-posture-corrector",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0070_7a3a3176-14b4-4c41-a1e8-6dbe381b3ecf.jpg?v=1791467143",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/346aafc0-80e2-45fb-a14f-ea6764d7b3ac_48a0b4ca-7a9b-4a5b-ac2a-2604e447efe9.webp?v=1791467141",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066191618238",
+    "title": "Mavoraa Hand Massager with Heating and Air Wave Technology",
+    "handle": "Mavoraa-hand-massager-with-heating-and-air-wave-technology",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0008_Vostara_Hand_Massager_with_Heating_and_Air_Wave_Technology.jpg?v=1791467144",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/AAAAA.webp?v=1791467144",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066191749310",
+    "title": "Mavoraa Mini USB Rechargeable Portable Juicer Cup",
+    "handle": "Mavoraa-mini-usb-rechargeable-portable-juicer-cup",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0022_Vostara_Mini_USB_Rechargeable_Portable_Juicer_Cup.jpg?v=1791467147",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/5ce23ebe-a979-4859-94a4-c605d348164d_532c07e2-78bb-4097-897d-558f9be8a3aa.webp?v=1791467146",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066191847614",
+    "title": "Mavoraa Creative Fish Shaped Scale Scraper",
+    "handle": "Mavoraa-creative-fish-shaped-scale-scraper",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0011_Vostara_Creative_Fish_Shaped_Scale_Scraper.jpg?v=1791467149",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/sssss.webp?v=1791467148",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066192011454",
+    "title": "Mavoraa Wooden Magnetic Fishing Game for Kids",
+    "handle": "Mavoraa-wooden-magnetic-fishing-game-for-kids",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0002_bf01b366-bd6e-45be-bafe-ed927868211f.jpg?v=1791467152",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/be733413-8d28-45cb-b3b8-2ff751c4c179_4f3d458b-b823-4c3e-8d48-54b1b93fcaab.webp?v=1791467151",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066192142526",
+    "title": "Mavoraa Inflatable Lumbar Reliever, Adjustable Air Bag Waist Support Plate to Relieve Lumbar Disc and Waist Stretching Artifact Wholesale",
+    "handle": "Mavoraa-inflatable-lumbar-reliever-adjustable-air-bag-waist-support-plate-to-relieve-lumbar-disc-and-waist-stretching-artifact-wholesale",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/115009e8-ca3b-400c-bdb9-08117c0cc9ba_e94b85d3-9842-47c6-bc49-87923c276690.jpg?v=1791467154",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/8276a41e-d69e-4855-ac3d-77b9282a1fdd.webp?v=1791467154",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066192273598",
+    "title": "Mavoraa Luminous Drawing Board for Kids",
+    "handle": "Mavoraa-luminous-drawing-board-for-kids",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/6af8fdfa-32b6-4a61-9b87-8bef2fb51a41_20a93c36-3385-4607-99e9-c5fdaada2338.jpg?v=1791467156",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/6af8fdfa-32b6-4a61-9b87-8bef2fb51a41_20a93c36-3385-4607-99e9-c5fdaada2338.webp?v=1791467156",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066192404670",
+    "title": "Mavoraa Pet Spray Massage Comb Cat Steam Comb Hair Comb",
+    "handle": "Mavoraa-pet-spray-massage-comb-cat-steam-comb-hair-comb",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0037_Vostara_Pet_Spray_Massage_Comb_Cat_Steam_Comb_Hair_Comb.jpg?v=1791467158",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/79f5c2c7-b944-4694-966c-2e189d832cbc.webp?v=1791467158",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066192470206",
+    "title": "Mavoraa Glass Oil Dispenser Bottle",
+    "handle": "Mavoraa-glass-oil-dispenser-bottle",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0054_Gemini_Generated_Image_zbo9clzbo9clzbo9.jpg?v=1791467160",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/5b09874f-d59d-4405-bc2d-9ad62c0670cd.webp?v=1791467159",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066192601278",
+    "title": "Mavoraa LED Desk Lamp",
+    "handle": "Mavoraa-led-desk-lamp",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Gemini_Generated_Image_utwjiutwjiutwjiu_copy.jpg?v=1791467162",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/5cc84cf9-af2b-4432-8261-d165da604f8f.webp?v=1791467162",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066192699582",
+    "title": "Mavoraa Neakasa P1 Pro Pet Grooming Clipper",
+    "handle": "Mavoraa-hair-washing-brush-and-shampoo-comb",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0021_Vostara_Neakasa_P1_Pro_Pet_Grooming_Clipper.jpg?v=1791467164",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/345a9b7f-d72f-4f53-9a48-60463d173874.webp?v=1791467163",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066192830654",
+    "title": "Mavoraa  Animal Shape Rechargeable Night Light",
+    "handle": "Mavoraa-animal-shape-rechargeable-night-light",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0016_Vostara_Animal_Shape_Rechargeable_Night_Light.jpg?v=1791467166",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/555.webp?v=1791467166",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066192994494",
+    "title": "Mavoraa\"Rotating Starry Sky Projection Night Light \"",
+    "handle": "Mavoraarotating-starry-sky-projection-night-light",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0061_Vostara_Rotating_Starry_Sky_Projection_Night_Light.jpg?v=1791467169",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/07b4b5ff-edeb-48fa-b8e2-178dffd4fd92_8830760c-3d51-49cd-b914-d6fc632aa8e0.webp?v=1791467168",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066193125566",
+    "title": "Mavoraa Electric Heating Ankle Protector with Vibration Massage and Graphene Technology",
+    "handle": "Mavoraa-electric-heating-ankle-protector-with-vibration-massage-and-graphene-technology",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0010_Vostara_Electric_Heating_Ankle_Protector_with_Vibration_Massage_and_Graphene_Technology.jpg?v=1791467172",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/QQQQ_884c6f23-a35f-434b-a40e-f712a2d30497.webp?v=1791467171",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066193223870",
+    "title": "Mavoraa LED Nail Lamp with Red Light Technology",
+    "handle": "Mavoraa-led-nail-lamp-with-red-light-technology",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0024_Vostara_LED_Nail_Lamp_with_Red_Light_Technology.jpg?v=1791467174",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/dddd_2eca98c7-0114-4195-a4a8-27278a417099.webp?v=1791467173",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066193322174",
+    "title": "Mavoraa Multifunctional Wireless Electric Cleaning Brush with Voice Prompt",
+    "handle": "Mavoraa-multifunctional-wireless-electric-cleaning-brush-with-voice-prompt",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0072_4aebf55f-0ef1-4716-840d-94cbb6e8c618.jpg?v=1791467176",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/bbbbb_bc024d63-e4b0-4f12-ac30-410de8cd4402.webp?v=1791467176",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066193453246",
+    "title": "Mavoraa Hair-washing brush and shampoo comb",
+    "handle": "Mavoraa-hair-washing-brush-and-shampoo-comb-1",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0056_watermarked_img_4800252094613985457_2eb2e9d4-5bec-4874-9925-19d810cf5548.jpg?v=1791467180",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/33.webp?v=1791467179",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066193682622",
+    "title": "Mavoraa Cinema Immersion TV Backlight",
+    "handle": "vostora-cinema-immersion-tv-backlight",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0064_Gemini_Generated_Image_jo1jgdjo1jgdjo1j_bdf2cfc2-1a11-4ff8-8d58-198040639b7f.jpg?v=1791467183",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/TV-MainImage4_1_78107ee3-eff4-4905-bb61-b956140524c2.webp?v=1791467182",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066193879230",
+    "title": "Mavoraa Soothing Patting Doll Pillow",
+    "handle": "vostara-soothing-patting-doll-pillow",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0039_Vostara_Soothing_Patting_Doll_Pillow.jpg?v=1791467185",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/f635fd96-a638-4404-afc5-cc89fc43e816.webp?v=1791467184",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066194010302",
+    "title": "Mavoraa Inflatable Maternity Mattress O-Shaped Air Cushion",
+    "handle": "vostara-inflatable-maternity-mattress-o-shaped-air-cushion",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0005_Vostara_Inflatable_Maternity_Mattress_O-Shaped_Air_Cushion_6ae3c035-ffb4-4413-972d-5831f7dad4ba.jpg?v=1791467186",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/ec443fbb97c063748e6dcd7f7fd137fb.webp?v=1791467187",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066194075838",
+    "title": "Mavoraa ClearVision™ Glass Oil Film Remove",
+    "handle": "clearvision™-glass-oil-film-remove",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/99999_4fabdc1e-0dfc-49d9-906c-8a788f0bfda7.jpg_copy.jpg?v=1791467188",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/99999_4fabdc1e-0dfc-49d9-906c-8a788f0bfda7.jpg?v=1791467188",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066194141374",
+    "title": "Mavoraa Retinol SeruRetinol Serumm",
+    "handle": "retinol-seruretinol-serumm",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0030_Vostara_Retinol_SeruRetinol_Serumm_cf557eb5-6442-496b-b254-9c6d8c44c002.jpg?v=1791467189",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/733adbe83578b16b84a02706c0067167.jpg?v=1791467189",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066194239678",
+    "title": "Mavoraa Portable Adjustable Telescopic Folding Stool",
+    "handle": "medieval-style-rabbit-family-figurine",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/281d1cfbc36899fdd93f70c019a10f4d_1.jpg?v=1791467190",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/281d1cfbc36899fdd93f70c019a10f4d.jpg?v=1791467190",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066194337982",
+    "title": "Mavoraa Piece Maltose Stress Relief Toys Set",
+    "handle": "piece-maltose-stress-relief-toys-set",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0036_Vostara_Piece_Maltose_Stress_Relief_Toys_Set.jpg?v=1791467192",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/bd218b05-4280-406f-8d8c-0edb4f44848a.webp?v=1791467190",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066194436286",
+    "title": "Mavoraa Ankle Balance Board",
+    "handle": "ankle-balance-board",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/92beaa5e-badb-455f-a03b-5640481461ea_1.jpg?v=1791467193",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/IMG-20260602-WA0066.jpg?v=1791467192",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066194501822",
+    "title": "Mavoraa Women Retro Striped Vest and Wide-Leg Pants Set",
+    "handle": "womens-retro-striped-vest-and-wide-leg-pants-set",
+    "status": "DRAFT",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0018_Group_3_049da721-4c06-4a4b-9b89-541fe8599f28.jpg?v=1791467193",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/5ef899d880357755866ce0f3f8aeb3d9_7333fe76-5c69-4318-bdbc-673f121afcb4.jpg?v=1791467194",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066194567358",
+    "title": "Mavoraa TheraWrap",
+    "handle": "therawrap™",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/IMG-20260602-WA0093_2.jpg?v=1791467195",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/IMG-20260602-WA0093.jpg?v=1791467194",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066194665662",
+    "title": "Mavoraa NŌX™ — Instant Sinus &amp; Pressure Relief",
+    "handle": "nox™-instant-sinus-amp-pressure-relief",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0020_Vostara_NOX_Instant_Sinus_amp_Pressure_Relief_1fe84001-a1a3-403a-93ae-104e95d3094c.jpg?v=1791467195",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/IMG-20260602-WA0083.jpg?v=1791467196",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066194763966",
+    "title": "Mavoraa USB Star Projection Lamp",
+    "handle": "usb-star-projection-lamp",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0046_Vostara_USB_Star_Projection_Lamp.jpg?v=1791467197",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/80decfe9-897a-404e-b43b-9c2787ab001d.webp?v=1791467196",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066194829502",
+    "title": "Mavoraa vitamin",
+    "handle": "vitamin",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0044_Vostara_vitamin.jpg?v=1791467198",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/O1CN019PB5g91nPbwVjIlMJ__2218908485082-0-cib_1.jpg?v=1791467198",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066194895038",
+    "title": "Mavoraa Portable Dual Layer Jewelry Storage Box",
+    "handle": "portable-dual-layer-jewelry-storage-box",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0071_Gemini_Generated_Image_7rpisl7rpisl7rpi.jpg?v=1791467199",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/3f50ba1c-18e2-4bff-bd72-6d5fd6b75b6e.webp?v=1791467198",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066194993342",
+    "title": "Mavoraa Girls Faux Fur Hooded Coat",
+    "handle": "girls-faux-fur-hooded-coat",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0009_Vostara_Girls_Faux_Fur_Hooded_Coat.jpg?v=1791467200",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/4d6c226033d135a39310126211abd78c.jpg?v=1791467200",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066195058878",
+    "title": "Mavoraa Advanced Joint Support Formula",
+    "handle": "advanced-joint-support-formula",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0014_Vostara_Advanced_Joint_Support_Formula.jpg?v=1791467201",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/O1CN01sKv87f2EsSWLjAmvZ__2222192108800-0-cib.jpg?v=1791467201",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066195157182",
+    "title": "Mavoraa Best Nature's Cosmetics Organic Soursop Oil",
+    "handle": "best-natures-cosmetics-organic-soursop-oil",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0012_Vostara_Best_Nature_s_Cosmetics_Organic_Soursop_Oil.jpg?v=1791467203",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/IMG-20260602-WA0022.jpg?v=1791467203",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066195222718",
+    "title": "Mavoraa Remote Control Color Changing Jellyfish USB Night Light",
+    "handle": "remote-control-color-changing-jellyfish-usb-night-light",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0031_Vostara_Remote_Control_Color_Changing_Jellyfish_USB_Night_Light.jpg?v=1791467204",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/4c0776608e5f8b6c054003e53ac102fe.jpg?v=1791467204",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066195321022",
+    "title": "Mavoraa Cordless Turbo Jet Leaf Blower",
+    "handle": "cordless-turbo-jet-leaf-blower",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0000_Gemini_Generated_Image_r1zx3lr1zx3lr1zx.jpg?v=1791467204",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/IMG-20260602-WA0038_1.jpg?v=1791467205",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066195386558",
+    "title": "Mavoraa Haisstronica 340PCS Solder",
+    "handle": "haisstronica-340pcs-solder",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0053_Gemini_Generated_Image_ptnzvlptnzvlptnz_ee597a96-34c3-4ba2-a10a-5d36bb38edd8.jpg?v=1791467206",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/IMG-20260602-WA0052.jpg?v=1791467205",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066195452094",
+    "title": "Mavoraa Electric Toothbrush",
+    "handle": "electric-toothbrush",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0057_Gemini_Generated_Image_fc3p5sfc3p5sfc3p.jpg?v=1791467207",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/IMG-20260602-WA0042.jpg?v=1791467207",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066195550398",
+    "title": "Mavoraa Universal 4-in-1 Wireless Fast Charger",
+    "handle": "universal-4-in-1-wireless-fast-charger",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0063_d4cf838c-47bc-4fc2-955c-e0b5a4a7b5c4.jpg?v=1791467208",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/a9d1e18b75bd8974a8f85309faa378cc_2424dbc5-05e3-478c-9008-41f6a0615b5c.jpg?v=1791467207",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066195648702",
+    "title": "Mavoraa Foldable Fabric Storage Box with Dividers",
+    "handle": "foldable-fabric-storage-box-with-dividers",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/WhatsAppImage2026-08-10at5_05_12PM_jpg.jpg?v=1791467209",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/44357d59-c922-483e-bcb2-e573b146aac0_800x800_5415bb69-2a33-42ca-ad7b-3490d4384312.jpg?v=1791467209",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066195714238",
+    "title": "Mavoraa  Fat-Burning Machine",
+    "handle": "fat-burning-machine",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0055_Gemini_Generated_Image_5fgjbq5fgjbq5fgj.jpg?v=1791467210",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/IMG-20260602-WA0049.jpg?v=1791467210",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066195779774",
+    "title": "Mavoraa Solar Powered Outdoor Garden Hanging Light",
+    "handle": "solar-powered-outdoor-garden-hanging-light",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0040_Vostara_Solar_Powered_Outdoor_Garden_Hanging_Light.jpg?v=1791467211",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/d9b1eda7-60c6-4e18-8aa9-cfb7dcdc8c01.jpg?v=1791467211",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066195845310",
+    "title": "Mavoraa Knee Compression",
+    "handle": "knee-compression",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0052_Gemini_Generated_Image_el6iquel6iquel6i.jpg?v=1791467213",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/IMG-20260602-WA0055_1.jpg?v=1791467212",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066195910846",
+    "title": "Mavoraa Luminous Magic Beads DIY Educational Craft",
+    "handle": "luminous-magic-beads-diy-educational-craft",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0074_Gemini_Generated_Image_mkizlrmkizlrmkiz.jpg?v=1791467214",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/9ccf88a22cd45e957f2a780aa38be56f.jpg?v=1791467214",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066196041918",
+    "title": "Mavoraa Posture Corrector for Shoulder and Back Support",
+    "handle": "posture-corrector-for-shoulder-and-back-support",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0067_0ea7d0e5-daa1-4cd8-bdf4-761f490c106c.jpg?v=1791467215",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/WhatsAppImage2026-06-23at1.42.33PM.jpg?v=1791467215",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066196074686",
+    "title": "Mavoraa Orthopedic Insoles for Plantar Fasciitis Relief",
+    "handle": "orthopedic-insoles-for-plantar-fasciitis-relief",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/WhatsApp_Image_2026-08-10_at_4_43_52_PM_1__jpg.jpg?v=1791467216",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/WhatsAppImage2026-05-31at3.17.52PM_1.jpg?v=1791467215",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066196140222",
+    "title": "Mavoraa TruHear™ | Invisible Behind The Ears Hearing Aids",
+    "handle": "truhear™-invisible-behind-the-ears-hearing-aids",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0047_Vostara_TruHear___Invisible_Behind_The_Ears_Hearing_Aids.jpg?v=1791467217",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/IMG-20260602-WA0097.jpg?v=1791467216",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066196172990",
+    "title": "Mavoraa Hanging Sink Drain Basket for Kitchen Use",
+    "handle": "hanging-sink-drain-basket-for-kitchen-use",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/WhatsApp_Image_2026-08-10_at_4_43_52_PM_jpg.jpg?v=1791467218",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/95e81bcd-4e58-4ea7-b4b1-856da682f294_jpeg.jpg?v=1791467218",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066196238526",
+    "title": "Mavoraa Rotating Suction Cup Hooks with Adhesive Backing",
+    "handle": "rotating-suction-cup-hooks-with-adhesive-backing",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0066_d8942fbc-e6d2-4fb1-bbd3-c55093daf6ba.jpg?v=1791467219",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/f5dbb9266501c275817dc637edf6a71f.jpg?v=1791467219",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066196304062",
+    "title": "Mavoraa Sunscreen Moisturizing Cream",
+    "handle": "sunscreen-moisturizing-cream",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0001_d1176cb4-3d41-4669-a336-e0b90feaeafe.jpg?v=1791467220",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/ii.webp?v=1791467220",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066196402366",
+    "title": "Mavoraa  Eye Red Light Therapy Glasses",
+    "handle": "grabora-eye-red-light-therapy-glasses",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0059_Gemini_Generated_Image_6y28286y28286y28.jpg?v=1791467221",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/O1CN01Vsy5aA1umh6VlqN0k__3991096080-0-cib.jpg?v=1791467221",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066196467902",
+    "title": "Mavoraa Handheld Electric Garden Tiller and Weeder",
+    "handle": "handheld-electric-garden-tiller-and-weeder",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0073_Gemini_Generated_Image_y16pfhy16pfhy16p.jpg?v=1791467223",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/81dbc968-327e-4699-8d85-14a3575aad87.webp?v=1791467222",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066196598974",
+    "title": "Mavoraa Cartoon Silicone AirPods Case Cover",
+    "handle": "cartoon-silicone-airpods-case-cover",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/WhatsAppImage2026-08-10at4_43_51PM_1__jpg.jpg?v=1791467223",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/a597d798-a61e-4b5b-a0a6-f9dc20f78b77.webp?v=1791467223",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066196631742",
+    "title": "Mavoraa Handwoven Storage Basket with Removable Compartments",
+    "handle": "handwoven-storage-basket-with-removable-compartments",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/WhatsApp_Image_2026-08-10_at_4_43_52_PM_2__jpg.jpg?v=1791467225",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/db6d6d2c456b4520cd2735f1bb750bb5.jpg?v=1791467225",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066196697278",
+    "title": "Mavoraa Aluminum Alloy Folding Pants Hanger",
+    "handle": "aluminum-alloy-folding-pants-hanger",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/WhatsApp_Image_2026-08-10_at_4_43_51_PM_jpg.jpg?v=1791467226",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/483766f2-bc2d-42cd-b39f-d1e76d0af23a_1.webp?v=1791467225",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066196795582",
+    "title": "Mavoraa Adjustable Heating Massage Neck Pillow with Memory Foam",
+    "handle": "vostora-adjustable-heating-massage-neck-pillow-with-memory-foam",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0060_Vostora_Adjustable_Heating_Massage_Neck_Pillow_with_Memory_Foam.jpg?v=1791467227",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/d7f4e284-be58-4364-a16b-ce5de7dddb04.webp?v=1791467227",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066196893886",
+    "title": "Mavoraa pet Carrier Backpack for Small Dogs",
+    "handle": "pet-carrier-backpack-for-small-dogps",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0028_Vostara_pet_Carrier_Backpack_for_Small_Dogs.jpg?v=1791467228",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/pppp.webp?v=1791467227",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066196959422",
+    "title": "Mavoraa Round Fluffy Plush Pet Bed",
+    "handle": "vostara-round-fluffy-plush-pet-bed",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0029_Vostara_Round_Fluffy_Plush_Pet_Bed.jpg?v=1791467229",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/0b6c0e55-8210-4efa-9b66-497eefb795f1_55ea204f-0217-4e8a-b820-0f9a45f9c430.webp?v=1791467230",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066197057726",
+    "title": "Mavoraa Solar System Pendant Necklace",
+    "handle": "vostara-solar-system-pendant-necklace",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0068_Gemini_Generated_Image_r8rnl6r8rnl6r8rn.jpg?v=1791467230",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/e9a83f60-14a2-4807-9ca1-244dd1e8102c_73983198-69c4-4042-835b-6293a1e07a88.webp?v=1791467230",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066197123262",
+    "title": "Mavoraa Silicone Ice Cube Mold",
+    "handle": "vostara-silicone-ice-cube-mold",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0042_Vostara_Silicone_Ice_Cube_Mold.jpg?v=1791467231",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/eeeeee.webp?v=1791467231",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066197221566",
+    "title": "Mavoraa Wireless Hair Straightening Comb with Negative Ion Technology",
+    "handle": "vostara-wireless-hair-straightening-comb-with-negative-ion-technology-1",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0004_d5be04db-c42c-4f96-94a9-fffb9b9214fe.jpg?v=1791467233",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/2e1986bc-e28a-4793-a088-3fede3b198f9_37bf63cd-fb9d-428e-9c36-864bdbca8799.webp?v=1791467232",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066197319870",
+    "title": "Mavoraa Professional Hair Dryer with Negative Ion Technology",
+    "handle": "vostara-professional-hair-dryer-with-negative-ion-technology-1",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0032_Vostara_Professional_Hair_Dryer_with_Negative_Ion_Technology.jpg?v=1791467234",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/FFF111_73ef7c7a-cbf7-4635-9181-de9c67ea3b71.webp?v=1791467234",
+    "w": 1080,
+    "h": 1080
+  },
+  {
+    "id": "gid://shopify/Product/9066197385406",
+    "title": "Mavoraa Lightweight Breathable Baby Carrier",
+    "handle": "vostara-lightweight-breathable-baby-carrier",
+    "status": "ACTIVE",
+    "image": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/Designs_-_Copy_0051_Gemini_Generated_Image_knfvvfknfvvfknfv.jpg?v=1791467235",
+    "image2": "https://cdn.shopify.com/s/files/1/0792/5140/7038/files/66_9fdf7694-f6b7-46ca-9bb7-9d6fa4a567a7.webp?v=1791467234",
+    "w": 1080,
+    "h": 1080
+  }
+]

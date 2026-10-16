@@ -1,0 +1,25 @@
+{%- comment -%}
+  Customer-facing copy: replace legacy brand names with Mavoraa.
+  @param {string} text
+{%- endcomment -%}
+{%- assign clean_text = text
+  | replace: 'WezzaFamme', 'Mavoraa'
+  | replace: 'wezzafamme', 'Mavoraa'
+  | replace: 'Wezzafamme', 'Mavoraa'
+  | replace: 'WezzaFemme', 'Mavoraa'
+  | replace: 'Wezzafemme', 'Mavoraa'
+  | replace: 'wezzafemme', 'Mavoraa'
+  | replace: 'WEZZAFAMME', 'Mavoraa'
+  | replace: 'WEZZAFEMME', 'Mavoraa'
+  | replace: 'Sollora', 'Mavoraa'
+  | replace: 'SOLLORA', 'Mavoraa'
+  | replace: 'sollora', 'Mavoraa'
+  | replace: 'Solora', 'Mavoraa'
+  | replace: 'solora', 'Mavoraa'
+  | replace: 'Vostara', 'Mavoraa'
+  | replace: 'vostara', 'Mavoraa'
+  | replace: 'VOSTARA', 'Mavoraa'
+  | replace: 'Grabora', 'Mavoraa'
+  | replace: 'grabora', 'Mavoraa'
+-%}
+{{ clean_text }}

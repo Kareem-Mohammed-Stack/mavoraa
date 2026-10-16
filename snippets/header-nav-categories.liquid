@@ -1,0 +1,110 @@
+{% comment %}
+  Renders featured collection links for a parent nav item.
+
+  Accepts:
+  - parent_link: {Link} top-level menu link
+  - mode: {String} mega | drawer | dropdown
+{% endcomment %}
+
+{%- liquid
+  assign parent_setting = section.settings.featured_nav_parent | default: 'catalog' | downcase
+  assign parent_title = parent_link.title | downcase
+  assign parent_match = false
+
+  if parent_link.handle == parent_setting or parent_title == parent_setting or parent_title == 'collections' or parent_link.handle == 'collections' or parent_title == 'categories' or parent_link.handle == 'catalog'
+    assign parent_match = true
+  endif
+-%}
+
+{%- if parent_match -%}
+  {%- assign category_items = 'health-wellness,beauty-personal-care,home-kitchen,smart-tech-gadgets,pet-essentials,baby-kids-toys' | split: ',' -%}
+
+  {%- for category_handle in category_items -%}
+    {%- liquid
+      assign collection = collections[category_handle]
+      assign category_fallback = ''
+      case category_handle
+        when 'health-wellness'
+          assign category_fallback = 'shopify-col-wellness.jpg'
+        when 'beauty-personal-care'
+          assign category_fallback = 'shopify-col-beauty.jpg'
+        when 'home-kitchen'
+          assign category_fallback = 'shopify-col-kitchen.jpg'
+        when 'smart-tech-gadgets'
+          assign category_fallback = 'shopify-col-tech.jpg'
+        when 'pet-essentials'
+          assign category_fallback = 'shopify-col-pet.jpg'
+        when 'baby-kids-toys'
+          assign category_fallback = 'shopify-col-baby.jpg'
+      endcase
+
+      if collection != blank and collection.url != blank
+        assign coll_title = collection.title
+        assign coll_url = collection.url
+        assign category_image = collection.image
+      else
+        assign coll_url = routes.collections_url | append: '/' | append: category_handle
+        case category_handle
+          when 'health-wellness'
+            assign coll_title = 'Health & Wellness'
+          when 'beauty-personal-care'
+            assign coll_title = 'Beauty & Personal Care'
+          when 'home-kitchen'
+            assign coll_title = 'Home & Kitchen'
+          when 'smart-tech-gadgets'
+            assign coll_title = 'Smart Tech & Gadgets'
+          when 'pet-essentials'
+            assign coll_title = 'Pet Essentials'
+          when 'baby-kids-toys'
+            assign coll_title = 'Baby, Kids & Toys'
+          else
+            assign coll_title = category_handle | replace: '-', ' ' | capitalize
+        endcase
+      endif
+    -%}
+    <li>
+      {%- if mode == 'mega' -%}
+        {%- if category_image != blank -%}
+          <a href="{{ coll_url }}" class="mega-menu__img-wrapper">
+            {{
+              category_image
+              | image_url: width: 600
+              | image_tag: class: 'mega_menu_link_img', loading: 'lazy', alt: coll_title
+            }}
+          </a>
+        {%- elsif category_fallback != blank -%}
+          <a href="{{ coll_url }}" class="mega-menu__img-wrapper">
+            <img
+              src="{{ category_fallback | asset_url }}"
+              alt="{{ coll_title | escape }}"
+              class="mega_menu_link_img"
+              loading="lazy"
+              width="400"
+              height="400"
+            >
+          </a>
+        {%- endif -%}
+        <a
+          href="{{ coll_url }}"
+          class="mega-menu__link mega-menu__link--level-2 lumin-mega link"
+        >
+          {{ coll_title | escape }}
+        </a>
+      {%- elsif mode == 'drawer' -%}
+        <a
+          href="{{ coll_url }}"
+          class="menu-drawer__menu-item link link--text list-menu__item focus-inset"
+        >
+          {{ coll_title | escape }}
+        </a>
+      {%- else -%}
+        <a
+          href="{{ coll_url }}"
+          class="header__menu-item list-menu__item link link--text focus-inset caption-large"
+        >
+          {{ coll_title | escape }}
+        </a>
+      {%- endif -%}
+    </li>
+  {%- endfor -%}
+{%- endif -%}

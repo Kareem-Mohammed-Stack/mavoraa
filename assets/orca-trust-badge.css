@@ -1,0 +1,87 @@
+.orca-trust-badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  margin: 1.6rem auto 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.orca-trust-badge img {
+  display: block;
+  width: 140%;
+  max-width: none;
+  height: auto;
+  margin-inline: -20%;
+  margin-left: -20%;
+  margin-right: -20%;
+  flex-shrink: 0;
+  transform: none;
+}
+
+.product-form__buttons .orca-trust-badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 1.2rem;
+  overflow: hidden;
+}
+
+.product-form__buttons .orca-trust-badge img {
+  display: block;
+  width: 140%;
+  max-width: none;
+  height: auto;
+  margin-inline: -20%;
+  margin-left: -20%;
+  margin-right: -20%;
+  transform: none;
+}
+
+.orca-featured .orca-trust-badge {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.2rem;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.orca-featured .orca-trust-badge img {
+  display: block;
+  width: 140%;
+  max-width: none;
+  height: auto;
+  margin-inline: -20%;
+  margin-left: -20%;
+  margin-right: -20%;
+  transform: none;
+}
+
+section[id^="MainProduct"] .product__info-container .orca-trust-badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+section[id^="MainProduct"] .product__info-container .orca-trust-badge img {
+  display: block;
+  width: 140%;
+  max-width: none;
+  height: auto;
+  margin-inline: -20%;
+  margin-left: -20%;
+  margin-right: -20%;
+  transform: none;
+}

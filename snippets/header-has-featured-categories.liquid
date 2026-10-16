@@ -1,0 +1,24 @@
+{% comment %}
+  Outputs "true" when the parent link should show featured categories.
+  Accepts:
+  - parent_link: {Link}
+{% endcomment %}
+{%- liquid
+  assign parent_setting = section.settings.featured_nav_parent | default: 'shop' | downcase
+  assign parent_title = parent_link.title | downcase
+  assign parent_match = false
+
+  if parent_link.handle == parent_setting or parent_title == parent_setting or parent_link.handle == 'collections' or parent_title == 'collections' or parent_link.handle == 'catalog' or parent_title == 'catalog'
+    assign parent_match = true
+  endif
+
+  assign has_categories = false
+  if parent_match
+    if section.settings.featured_nav_collections.count > 0
+      assign has_categories = true
+    elsif section.settings.featured_nav_collection_handles != blank
+      assign has_categories = true
+    endif
+  endif
+-%}
+{%- if has_categories -%}true{%- endif -%}

@@ -1,0 +1,10 @@
+{{ 'orca-trust-badge.css' | asset_url | stylesheet_tag }}
+<div class="orca-trust-badge"{% if block %}{{ block.shopify_attributes }}{% endif %}>
+  <img
+    src="{{ 'orca-trust-badge.png' | asset_url }}"
+    alt="Loved by 500+ customers. 14 day money back guarantee."
+    loading="lazy"
+    width="420"
+    height="120"
+  >
+</div>

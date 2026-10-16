@@ -1,0 +1,140 @@
+{%- liquid
+  assign current_path = request.path | downcase
+-%}
+
+<div class="color-background-1 gradient">
+  <div class="page-width section-template--main-padding">
+    <div class="store-policy rte">
+      {%- if current_path contains 'refund-policy' -%}
+        <h1 class="store-policy__title">Refund & Return Policy</h1>
+        <p>At Mavoraa, customer satisfaction is our top priority. We stand by the quality of our products and want you to feel confident in every purchase.</p>
+
+        <h2>14-Day Return Window</h2>
+        <p>You have <strong>14 calendar days</strong> from the date you receive your item to request a return or refund. Returns requested after 14 days of delivery will not be eligible for a refund.</p>
+
+        <h2>Eligibility & Return Conditions</h2>
+        <ul>
+          <li>Items must be unused, in their original condition, and in their original packaging.</li>
+          <li>Proof of purchase (order number or purchase receipt) is required.</li>
+          <li>Items damaged through customer misuse or altered after delivery are not eligible for return.</li>
+        </ul>
+
+        <h2>How to Request a Return</h2>
+        <ol>
+          <li>Contact our customer support team at <a href="mailto:amrkh.business@gmail.com">amrkh.business@gmail.com</a> within 14 days of receiving your order. Include your order number and the reason for return.</li>
+          <li>Our support team will review your request and provide return shipping instructions.</li>
+          <li>Pack the item securely and ship it to the address provided by our support team.</li>
+        </ol>
+
+        <h2>Damaged, Defective, or Incorrect Items</h2>
+        <p>If your order arrives damaged, defective, or incorrect, please email us within 48 hours of delivery at <a href="mailto:amrkh.business@gmail.com">amrkh.business@gmail.com</a> with photos or videos of the issue. We will arrange a prompt replacement or full refund at no extra cost to you.</p>
+
+        <h2>Refund Processing</h2>
+        <p>Once your returned item is received and inspected, we will notify you of the approval or rejection of your refund. If approved, your refund will be processed back to your original method of payment within 5–7 business days.</p>
+
+      {%- elsif current_path contains 'shipping-policy' -%}
+        <h1 class="store-policy__title">Shipping Policy</h1>
+        <p>Thank you for shopping at Mavoraa! We are committed to delivering your orders reliably and efficiently.</p>
+
+        <h2>Delivery Timeframes & Order Tracking</h2>
+        <p><strong>Shipping takes around 14 business days. All orders include tracked shipping.</strong></p>
+
+        <h2>Order Processing</h2>
+        <ul>
+          <li>Orders are processed within 1 to 3 business days (excluding weekends and holidays).</li>
+          <li>Once your order ships, you will receive a shipping confirmation email containing your tracking link.</li>
+        </ul>
+
+        <h2>Tracking Your Package</h2>
+        <p>You can monitor the status of your shipment using the tracking link provided in your shipping confirmation email. If you have any questions regarding your tracking details, please reach out to <a href="mailto:amrkh.business@gmail.com">amrkh.business@gmail.com</a> with your order number.</p>
+
+        <h2>Address Accuracy</h2>
+        <p>Please double-check your shipping address during checkout. Mavoraa is not responsible for orders delivered to incorrect addresses provided by the customer.</p>
+
+      {%- elsif current_path contains 'terms-of-service' -%}
+        <h1 class="store-policy__title">Terms of Service</h1>
+        <p>Welcome to Mavoraa. By visiting our store or purchasing from us, you engage in our "Service" and agree to be bound by the following Terms of Service.</p>
+
+        <h2>General Conditions</h2>
+        <p>We reserve the right to refuse service to anyone for any reason at any time. All product descriptions, pricing, and availability are subject to change without prior notice.</p>
+
+        <h2>Orders & Payments</h2>
+        <ul>
+          <li>By placing an order, you confirm that all information provided is accurate and complete.</li>
+          <li>We accept major credit cards, PayPal, Apple Pay, Shop Pay, and Google Pay. Payments are securely processed at checkout.</li>
+          <li>We reserve the right to cancel or limit any order that appears fraudulent, unauthorized, or placed in violation of our store policies.</li>
+        </ul>
+
+        <h2>Shipping & Delivery</h2>
+        <p>Shipping timelines and delivery details are governed by our <a href="/policies/shipping-policy">Shipping Policy</a>. Orders include tracked shipping.</p>
+
+        <h2>Returns & Refunds</h2>
+        <p>Returns and refunds are subject to our 14-day policy. Please review our full <a href="/policies/refund-policy">Refund Policy</a> for complete details.</p>
+
+        <h2>Limitation of Liability</h2>
+        <p>Mavoraa shall not be liable for any indirect, incidental, or consequential damages resulting from the use or inability to use our products or website services.</p>
+
+        <h2>Contact Information</h2>
+        <p>For questions regarding these Terms of Service, please contact us at <a href="mailto:amrkh.business@gmail.com">amrkh.business@gmail.com</a>.</p>
+
+      {%- elsif current_path contains 'about-us' -%}
+        <h1 class="store-policy__title">About Mavoraa</h1>
+        <p>Welcome to <strong>Mavoraa</strong> — your destination for everyday products, chosen with care.</p>
+
+        <p>Our mission is simple: to bring you thoughtfully selected items that enhance your everyday life through quality, simplicity, and functionality.</p>
+
+        <h2>Why Shop With Us?</h2>
+        <ul>
+          <li><strong>Curated Selection:</strong> Every product in our catalog is chosen for its quality, value, and practicality.</li>
+          <li><strong>Tracked Shipping:</strong> Every order includes reliable, tracked shipping so you can follow your package step by step.</li>
+          <li><strong>Customer Care:</strong> Have questions or need assistance? We’re always here to help at <a href="mailto:amrkh.business@gmail.com">amrkh.business@gmail.com</a>.</li>
+        </ul>
+
+        <p>Thank you for choosing Mavoraa. We appreciate your support!</p>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+<style>
+  .store-policy {
+    max-width: 72rem;
+    margin: 0 auto;
+    padding: 3.6rem 1.6rem 6.4rem;
+  }
+
+  .store-policy__title {
+    margin: 0 0 2.4rem;
+    letter-spacing: -0.04em;
+    font-size: 3.2rem;
+  }
+
+  .store-policy h2 {
+    margin: 2.8rem 0 0.8rem;
+    font-size: 2rem;
+    letter-spacing: -0.03em;
+  }
+
+  .store-policy p {
+    margin: 0 0 1.4rem;
+    line-height: 1.7;
+    font-size: 1.6rem;
+  }
+
+  .store-policy ul,
+  .store-policy ol {
+    margin: 0 0 1.4rem;
+    padding-left: 2rem;
+  }
+
+  .store-policy li {
+    margin-bottom: 0.6rem;
+    line-height: 1.7;
+    font-size: 1.6rem;
+  }
+
+  .store-policy a {
+    color: var(--color-primary, #E24C13);
+  }
+</style>
+
